@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f6cceb;
+    background-color: #f8df96;
     font-family: Arial, sans-serif;
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 button {
-    background-color: #1aa34a;
+    background-color: #e470c6;
     border: none;
     color: rgb(255, 255, 255);
     padding: 15px 30px;
