@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     margin: 0;
     background-color: #f8df96;
     font-family: Arial, sans-serif;
@@ -10,6 +10,14 @@ body {
 
 .container {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+h2 {
+    margin-bottom: 0px;
 }
 
 button {
@@ -18,8 +26,14 @@ button {
     color: rgb(255, 255, 255);
     padding: 15px 30px;
     text-align: center;
-    font-size: 16px;
-    border-radius: 25px;
+    font-size: 24px;
+    border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+
+.gif {
+    width: 270px; 
+    height: auto; 
+    margin: 20px 0px;
 }
